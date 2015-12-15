@@ -1,0 +1,665 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    color: #469edb;
+    text-decoration: none;
+}
+
+.rounded {
+    border-radius: 0.5em;
+    border: 1px solid #c7c7c7;
+    padding-left: 5px;
+}
+
+.no_bg {
+    border: 0 none;
+    background: none;
+}
+
+img.scale-with-grid {
+    max-width: 100%;
+    height: auto;
+}
+.wrapper {
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#header {
+    background: #f1f1f1;
+    border-bottom: 2px solid #dbdbdb;
+    float: left;
+    height: 98px;
+    width: 100%;
+}
+
+#top_nav {
+    border: 1px solid 		#2A2A2A;
+	background: 			#111111;
+	color: 					#ffffff;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#111)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #3c3c3c, #111); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #3c3c3c, #111); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #3c3c3c, #111); /* IE10 */
+	background-image:      -o-linear-gradient(top, #3c3c3c, #111); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #3c3c3c, #111);
+    
+    height: 40px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    /*transition: top 0.2s ease 0s;*/
+    text-shadow: 0 -1px -1px #000;
+}
+
+#top_nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#top_nav ul li {
+    color: #469EDB;
+    line-height: 40px;
+    float: right;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+#top_nav ul li.home {
+    float: left;
+    height: 40px;
+    margin-left: 10px;
+    width: 40px;
+}
+
+.icon_home {
+    background-image: url("../images/glyphicons-halflings-white.png");
+    background-position: 469px -183px;
+    background-repeat: none;
+    border-radius: 9px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    height: 14px;
+    margin: 13px 0;
+    width: 14px;
+    float: left;
+}
+
+#top_nav ul li a {
+    line-height: 40px;
+    display: block; 
+    padding: 0 10px;
+}
+
+#top_nav ul .separator {
+    color: #469EDB;
+    line-height: 40px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+#top_nav ul li a:focus {
+    outline: 0 none;
+    border: 0 none;
+}
+
+.header_left {
+    float: left;
+    width: 30%;
+}
+
+.header_right {
+    float: left;
+    width: 70%;
+}
+
+#header_icon {
+    background: url("../images/header_icon.png") no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 79px;
+    margin: 0 28px 0 36px;
+    width: 82px;
+}
+
+#search {
+    float: right;
+    margin: 10px 3% 0 0;
+    width: 95%;
+}
+
+#search_form {
+    float: right;
+    width: 100%;
+}
+input#search_box {
+    height: 46px;
+    border: 2px solid #d1d1d1;
+    color: #a7a7a7;
+    float: right;
+    font-size: 15px;
+    font-style: italic;
+    width: 222px;
+}
+
+#search_btn {
+    border: 0;
+    background: url("../images/search_btn.jpg") no-repeat;
+    cursor: pointer;
+    float: right;
+    height: 52px;
+    width: 56px;
+}
+
+.virus_title {
+    float: left;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+#content {
+    float: left;
+    margin: 5px 1%;
+    width: 98%;
+}
+
+#virus_list, #comments_list, #admin_comments_list, #results_list {
+    float: left;
+    list-style: outside none;
+    width: 100%;
+}
+
+#virus_list li, #comments_list li, #admin_comments_list li, #results_list li {
+    float: left;
+    padding: 5px 0;
+    text-align: left;
+    text-indent: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#comments_list li.row, #admin_comments_list li.row, #results_list li.row {
+    float: left;
+    margin: 0 0 20px;
+    padding: 5px 0;
+    text-align: left;
+    text-indent: 10px;
+    width: 100%;
+}
+
+.even {
+    background: #fff;
+}
+
+#comments_list .two_cols {
+    float: left;
+    width: 50%;
+}
+#comments_list .one_col {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.white_box {
+    float: left;
+    margin: 0 1%;
+    width: 98%;
+}
+
+.gray_box {
+    background: #f3f2f2;
+    border: 1px solid #b9b9b9;
+    float: left;
+    margin: 5px 1%;
+    width: 98%;
+}
+
+.gray_box p {
+    padding: 10px;
+}
+
+.small_virus_title {
+    font-size: 20px;
+    line-height: 38px;
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.black {
+    color: #000;
+}
+
+.blue {
+    color: #469edb;
+}
+
+.box_header {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px 0;
+}
+
+.read_more {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.breadcrumb {
+    clear: both;
+    float: left;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 5px 1%;
+    text-decoration: none;
+    width: 98%;
+}
+
+.legend {
+    float: left;
+    margin: 10px 10%;
+    width: 80%;
+}
+
+.infected, .total_devices {
+    float: left;
+    width: 50%;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#login_form, #signup_form, #add_source_form, #add_category_form, #edit_source_form, #edit_category_form, #edit_user_form {
+    margin: 30px auto;
+    width: 320px;
+}
+
+#ca_link {
+    padding: 6px 15px;
+    margin-left: 20px;
+}
+
+#add_threat_definition, #edit_threat_form, #remap_threat_form {
+    float: left;
+    margin: 0 10%;
+    width: 80%;
+}
+
+#signup_form .row, #add_threat_definition .row, #edit_threat_form .row, #add_source_form .row, #add_category_form .row, #edit_source_form .row, #edit_category_form .row, #edit_user_form .row, #add_comment_form .row, #remap_threat_form .row {
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#add_threat_definition .half_row, #edit_threat_form .half_row, #remap_threat_form .half_row {
+    float: left;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+#add_threat_definition .half_row input[type=text], #edit_threat_form .half_row input[type=text], #remap_threat_form .half_row input[type=text] {
+    float: left;
+    margin: 0 5% 5px 0;
+    width: 95%;
+}
+
+#remap_threat_form input[type=text], #signup_form input[type=text], #signup_form label, #add_threat_definition input[type=text], #add_threat_definition label, #edit_threat_form input[type=text], #edit_threat_form label, #add_source_form input[type=text], #add_source_form label, #add_category_form input[type=text], #add_category_form label, #edit_source_form input[type=text], #edit_source_form label, #edit_category_form input[type=text], #edit_category_form label, #edit_user_form input[type=text], #edit_user_form label {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+input[type=password] {
+    margin: 0;
+    width: 100%;
+}
+
+#add_threat_definition textarea, #edit_threat_form textarea, #add_comment_form textarea {
+    width: 100%;
+    height: 200px;
+}
+
+#add_threat_definition .row span {
+    float: left;
+}
+
+#add_comment_form {
+    float: left;
+    margin: 0 5%;
+    width: 90%;
+}
+
+#add_comment_form .row span {
+    float: left;
+    width: 100%;
+}
+
+#add_comment_form .row span #user_comment_tbl {
+    width: 100% !important;
+}
+
+#add_threat_definition select, #edit_threat_form select {
+    width: 300px;
+}
+
+#threat_description_parent, #threat_additional_details_parent, #threat_repair_parent, #threat_related_links_parent {
+    float: left;
+}
+
+fieldset {
+    border: 1px solid #c7c7c7;
+    padding: 5%;
+}
+#login_form input[type=text], #login_form input[type=password] {
+    width: 100%;
+}
+input[type=submit], .black_btn {
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px 15px;
+    outline: 0 none;
+    border: 0;
+}
+
+input[type=submit]:hover, .black_btn:hover {
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #000000 0%, #45484d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#45484d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #000000 0%,#45484d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #000000 0%,#45484d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #000000 0%,#45484d 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #000000 0%,#45484d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); /* IE6-9 */
+
+}
+
+.reported_by {
+    margin-bottom: 20px;
+}
+.related_links {
+    float: left;
+    width: 100%;
+}
+
+.related_links ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.related_links ul li {
+    float: left;
+    margin: 0 0 5px 0;
+    width: 100%;
+}
+
+.related_links ul li a {
+    margin-left: 30px;
+}
+
+.list_link {
+    float: left;
+    width: 50%;
+}
+
+.list_link_controls {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.edit {
+    background: url("../images/edit_icon.png") no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.delete {
+    background: url("../images/delete_icon.png") no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.approve {
+    background: url("../images/approve_icon.png") no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.remap {
+    background: url("../images/remap_icon.png") no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.related_threats {
+    background: url("../images/related_threats_icon.png") no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.edit, .delete, .approve, .remap, .related_threats {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#sources_list, #categories_list, #users_list {
+    float: left;
+    list-style: outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sources_list .row, #categories_list .row, #users_list .row {
+    float: left;
+    width: 100%;
+}
+
+#sources_list li:last-child, #categories_list li:last-child, #users_list li:last-child {
+    border-bottom: 0 none;
+}
+
+#sources_list .five_cols {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    width: 20%;
+}
+
+#categories_list .three_cols {
+    float: left;
+    line-height: 32px;
+    width: 33%;
+}
+
+#users_list .five_cols {
+    float: left;
+    line-height: 32px;
+    width: 20%;
+}
+
+/* #Tabs */
+.tabbed_container {
+    border-bottom: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    clear: both; 
+    float: left;    
+    width: 100%;
+}
+ul.tabs {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px #ddd; }
+ul.tabs li {
+    display: block;
+    width: auto;
+    height: 30px;
+    padding: 0;
+    float: left;
+    margin-bottom: 0; }
+ul.tabs li a {
+    display: block;
+    text-decoration: none;
+    width: auto;
+    height: 29px;
+    padding: 0px 20px;
+    line-height: 30px;
+    border: solid 1px #ddd;
+    border-width: 1px 1px 0 0;
+    margin: 0;
+    background: #f5f5f5;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul.tabs li a.active {
+    background: #fff;
+    height: 30px;
+    position: relative;
+    top: -4px;
+    padding-top: 4px;
+    border-left-width: 1px;
+    margin: 0 0 0 -1px;
+    color: #111;
+    -moz-border-radius-topleft: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px; }
+ul.tabs li:first-child a.active {
+    margin-left: 0; }
+ul.tabs li:first-child a {
+    border-width: 1px 1px 0 1px;
+    -moz-border-radius-topleft: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px; }
+ul.tabs li:last-child a {
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px; }
+
+ul.tabs-content { margin: 0; display: block; }
+ul.tabs-content > li { display:none; }
+ul.tabs-content > li.active { display: block; }
+
+/* Clearfixing tabs for beautiful stacking */
+ul.tabs:before, ul.tabs:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+ul.tabs:after {clear: both; }
+ul.tabs {zoom: 1; }
+
+.tabbed_content {
+    display: none;
+    float: left;
+    width: 100%;
+}
+
+.tabbed_content.active {
+    display: block;
+}
+
+#footer {
+    color: #A7A7A7;
+    font-size: 12px;
+}
+
+p.error, .error {
+    color: #f00;
+    font-size: 13px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+table#remap_list {
+    float: left;
+    width: 100%;
+}
+
+table#remap_list th {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+table#remap_list td {padding: 5px 0;}
+table#remap_list tr:hover {
+    background: #fcffb0;
+}
+
+
+#virus_queue_table, #users_table, #comment_queue_table, #related_threats_table, #threat_alias_table, #threat_assignments_table {
+    float: left;
+    width: 100%;
+}
+
+#virus_queue_table tr:hover, #users_table tr:hover, #comment_queue_table tr:hover, #related_threats_table tr:hover, #threat_alias_table tr:hover, #threat_assignments_table tr:hover {
+    background: #fcffb0;
+}
+
+#virus_queue_table th, #users_table th, #comment_queue_table th, #related_threats_table th, #threat_alias_table th, #threat_assignments_table th {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#virus_queue_table td, #users_table td, #comment_queue_table td, #related_threats_table td, #threat_alias_table td, #threat_assignments_table td {
+    padding: 5px 0;
+}

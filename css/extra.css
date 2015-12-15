@@ -1,0 +1,18 @@
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media (max-width: 767px) {
+    input#search_box { width: 139px !important; font-size: 11px !important;}
+    #header_icon { margin: -10px 5px 0 5px !important;}
+    .virus_title {font-size: 20px !important;}
+    .breadcrumb { top: 110px !important;}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    input#search_box { width: 222px !important; font-size: 13px !important;}
+    #header_icon { margin: -10px 28px 0 36px !important;}
+    .virus_title {font-size: 24px !important;}
+    .breadcrumb { top: 110px !important; }
+}

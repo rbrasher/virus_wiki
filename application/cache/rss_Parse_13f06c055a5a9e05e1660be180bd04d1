@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:blogChannel="http://backend.userland.com/blogChannelModule" version="2.0">
+  <channel>
+    <title>F-Secure Mobile Threat Descriptions</title>
+    <link>http://www.f-secure.com</link>
+    <description>Latest mobile threat descriptions from F-Secure.</description>
+    <language>en</language>
+    <copyright>Copyright F-Secure</copyright>
+    <managingEditor>webmaster@f-secure.com</managingEditor>
+    <webMaster>webmaster@f-secure.com</webMaster>
+    <item>
+      <title>Application:Android/AdOp.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/application_android_adop.shtml</link>
+      <description>AdOp.A is an application that arbitrarily creates shortcuts and advertisement motivated notifications linking to a website or another application.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/AcnetSteal.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_acnetsteal.shtml</link>
+      <description>AcnetSteal.A is a program that harvests data and information from a compromised device.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/BeanBot.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_beanbot.shtml</link>
+      <description>BeanBot.A forwards device's data to a remote server and sends out premium-rate SMS messages from the infected device.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/Cawitt.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_cawitt.shtml</link>
+      <description>Cawitt.A operates silently in the background, gathering device information which it later forwards to a remote server.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/Frogonal.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_frogonal.shtml</link>
+      <description>Frogonal.A is a malware that harvests confidential data from a compromised device.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/Gamex.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_gamex.shtml</link>
+      <description>Gamex.A is a malware that downloads and installs files onto an infected device.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/KabStamper.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_kabstamper.shtml</link>
+      <description>KabStamper.A is a malware that circulated in Japan during the AKB48 (a Japanese pop group) election. The malware modifies images found in the device by overwriting them with a predefined image.</description>
+    </item>	
+    <item>
+      <title>Trojan:Android/Mania.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_mania.shtml</link>
+      <description>Mania.A is a malware that pretends to perform license checking to cover up its SMS-sending activities in the background.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/PremiumSMS.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_premiumsms.shtml</link>
+      <description>PremiumSMS.A is a trojan that reaps profit from its SMS sending activities.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/SmsSpy.F</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_smsspy_f.shtml</link>
+      <description>SmsSpy.F is a malware that targets banking consumers in Spain, posing as an Android Security Suite application.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/Stiniter.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_stiniter.shtml</link>
+      <description>Stiniter.A connects to a command and control (C&amp;C) server to forward data and to receive instructions.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/UpdtKiller.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_updtkiller.shtml</link>
+      <description>UpdtKiller.A is capable of terminating processes belonging to anti-virus products in order to avoid detection.</description>
+    </item>		
+    <item>
+      <title>Trojan:Android/Uranico.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_uranico.shtml</link>
+      <description>Uranico.A is a trojan that harvests data from an infected device, and forward the data to a remote server.</description>
+    </item>		
+    <item>
+      <title>Trojan:SymbOS/WallPaperSmsSend.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_symbos_androgamer.shtml</link>
+      <description>WallPaperSmsSend.A is a malware that poses as a live wallpaper application, but is actually sending out SMS messages in the background.</description>
+    </item>		
+    <item>
+      <title>Trojan:SymbOS/Kensoyk.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_symbos_kensoyk.shtml</link>
+      <description>Kensoyk.A contains references to anti-virus vendors, and is capable of killing anti-virus processes.</description>
+    </item>		
+    <item>
+      <title>Trojan:SymbOS/LaunchOut.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_symbos_launchout.shtml</link>
+      <description>LaunchOut.A is a trojan that downloads new software and monitors SMS messages on a compromised device.</description>
+    </item>	
+    <item>
+      <title>Trojan:SymbOS/Lipcharge.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_symbos_lipcharge.shtml</link>
+      <description>Lipcharge.A downloads configuration data and new software, which are later installed onto the compromised device.</description>
+    </item>		
+    <item>
+      <title>Trojan:SymbOS/Monlater.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_symbos_monlater.shtml</link>
+      <description>Monlater is a trojan that detects AppServer.exe processes and uninstalls a package with certain UID from an infected device.</description>
+    </item>		
+    <item>
+      <title>Trojan:SymbOS/RandomTrack.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_symbos_randomtrack.shtml</link>
+      <description>RandomTrack.A downloads an installer from a remote host, and silently installs this file onto the compromised device.</description>
+    </item>		
+    <item>
+      <title>Trojan-Proxy:Android/NotCompatible.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan-proxy_android_notcompatible.shtml</link>
+      <description>NotCompatible.A infects a device using a drive-by download method, gaining entry into the device when user visits a compromised website.</description>
+    </item>		
+    <item>
+      <title>Adware:Android/Mobsqueeze.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/adware_android_mobsqueeze.shtml</link>
+      <description>Mobsqueeze.A is an adware module found exclusively used by trojans in the FakeBattScar family.</description>
+    </item>		
+    <item>
+      <title>Adware:Android/Ropin.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/adware_android_ropin.shtml</link>
+      <description>Ropin.A is an application that gathers data from an infected device, and later forwards the data to a remote server.</description>
+    </item>		
+    <item>
+      <title>Hack-Tool:Android/SMBCheck.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/hack-tool_android_smbcheck.shtml</link>
+      <description>SMBCheck.A is a tool that checks whether a vulnerable SMBv2 server exists on a system running on Microsoft Windows operating system.</description>
+    </item>		
+    <item>
+      <title>Monitoring-Tool:Android/AndSpy.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_andspy.shtml</link>
+      <description>AndSpy.A is a monitoring and anti-theft program which capabilities can be remotely triggered by sending a particular SMS message to the targeted device.</description>
+    </item>		
+    <item>
+      <title>Monitoring-Tool:Android/CellShark.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_cellshark.shtml</link>
+      <description>CellShark.A is a commercial monitoring tool used to track users' activities on a device.</description>
+    </item>		
+    <item>
+      <title>Monitoring-Tool:Android/Lifemonspy.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_lifemonspy.shtml</link>
+      <description>Lifemonspy.A is a monitoring and anti-theft program that allows user to perform actions on the device from a remote location.</description>
+    </item>	
+    <item>
+      <title>Monitoring-Tool:Android/MobileTracker.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_mobiletracker.shtml</link>
+      <description>MobileTracker.A is a part of Samsung DIVE, a free service that allows device owners to track and control their devices remotely.</description>
+    </item>		
+    <item>
+      <title>Monitoring-Tool:Android/PdaSpy.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_pdaspy.shtml</link>
+      <description>PdaSpy.A is a commercial monitoring application that logs device information, which can later be viewed on the PdaSpy website.</description>
+    </item>		
+    <item>
+      <title>Monitoring-Tool:Android/SpyEra.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_spyera.shtml</link>
+      <description>SpyEra.A is a program that monitors and retrieves data from a compromised device.</description>
+    </item>		
+    <item>
+      <title>Monitoring-Tool:Android/SpyHasb.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/monitoring-tool_android_spyhasb.shtml</link>
+      <description>SpyHasb.A is a commercial monitoring tool that is marketed under several names.</description>
+    </item>		
+    <item>
+      <title>Riskware:Android/QPlus.A</title>
+	  <pubDate>14 Aug 2012</pubDate>
+      <link>http://www.f-secure.com/sw-desc/riskware_android_qplus.shtml</link>
+      <description>QPlus.A is a tool that runs silently in the background, gathering device information and later forwarding it to a remote server.</description>
+    </item>	
+    <item>
+      <title>Trojan:Android/GinMaster.A</title>
+	  <pubDate>26 Aug 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_ginmaster_a.shtml</link>
+      <description>Trojan:Android/GinMaster.A steals confidential information from the device and sends it to a remote website.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/DroidKungfu.C</title>
+	  <pubDate>19 Aug 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_droidkungfu_c.shtml</link>
+      <description>Trojan:Android/DroidKungFu.C forwards confidential details to a remote server.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/AutoSPSubscribe.A</title>
+	  <pubDate>24 Aug 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_autospsubscribe_a.shtml</link>
+      <description>Trojan:Android/AutoSPSubscribe.A is a malicious app that targets Android users in China, and is distributed through unofficial markets.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/YZHCSMS.A</title>
+	  <pubDate>19 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_yzhcsms_a.shtml</link>
+      <description>Trojan:Android/YZHCSMS.A sends SMS/MMS messages to premium rate numbers, potentially incurring unexpected/unwanted usage charges.</description>
+    </item>
+    <item>
+      <title>Monitoring-Tool:Android/SpyBubble.A</title>
+	  <pubDate>11 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/monitoring-tool_android_spybubble_a.shtml</link>
+      <description>Monitoring-Tool:Android/SpyBubble.A is a commercially available tracking tool.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/BaseBridge.A</title>
+	  <pubDate>08 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_basebridge_a.shtml</link>
+      <description>Trojan:Android/BaseBridge.A forwards confidential details to a remote server.</description>
+    </item>
+    <item>
+      <title>Spyware:Android/Flexispy.K</title>
+	  <pubDate>11 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/sw-desc/spyware_android_flexispy_k.shtml</link>
+      <description>Spyware:Android/Flexispy.K is a commercially available monitoring program.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/Nickispy.A</title>
+	  <pubDate>02 Aug 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_nickispy_a.shtml</link>
+      <description>Trojan:Android/Nickispy.A records activities activities on an infected device and forwards information to an external server without the user's knowledge or consent.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/Zsone.A</title>
+	  <pubDate>19 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_zsone_a.shtml</link>
+      <description>Trojan:Android/Zsone.A sends SMS messages to premium-rate numbers related to subscription for SMS-based services.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/Smspacem.A</title>
+	  <pubDate>19 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_spacem_a.shtml</link>
+      <description>Trojan:Android/Smspacem.A has a date-triggered payload that sends spam SMS messages to contacts listed on the device and changes the wallpaper.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/CruseWind.A</title>
+	  <pubDate>25 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_crusewind_a.shtml</link>
+      <description>Trojan:Android/Crusewind.A intercepts incoming SMS messages and forwards them to a remote server.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/AdSMS.A</title>
+	  <pubDate>01 Jun 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_androidos_adsms_a.shtml</link>
+      <description>Trojan:AndroidOS/AdSMS.A is distributed via a link embedded in a fake SMS; on clicking the link, the trojan's Android Package (APK) file is downloaded and installed onto the mobile device.</description>
+    </item>
+    <item>
+      <title>Trojan:Android/GGTracker.A</title>
+	  <pubDate>22 Jul 2011</pubDate>
+      <link>http://www.f-secure.com/v-descs/trojan_android_ggtracker_a.shtml</link>
+      <description>Trojan:Android/GGTracker.A sends SMS messages to premium-rate numbers without the user's knowledge or consent; it also steals information from the infected device.</description>
+    </item>								
+</channel>
+</rss>
